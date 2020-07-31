@@ -1,5 +1,18 @@
 .hero {
     width: 100%;
     height: 80vh;
-    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: pink; */
 }
+
+.hero-title-container {
+    font-family: Doppio One;
+}
+
+.social-icons-container a {
+    margin: 10px;
+}
+
