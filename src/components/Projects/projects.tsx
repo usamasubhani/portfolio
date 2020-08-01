@@ -20,7 +20,7 @@ const Projects = ({projectsList}: Props) => {
     // console.log(projects)
     return (
         <div className="projects">
-            <h4 style={{width:`100%`, textAlign:`center`}}>Featured Projects</h4>
+            <h3 style={{width:`100%`, textAlign:`center`}}>Featured Projects<span className="red">.</span></h3>
             {projects.map(node => {
                 return (
                     <Project
