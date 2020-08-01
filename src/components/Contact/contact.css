@@ -1,5 +1,24 @@
-.contact {
+.contact-section {
     width: 100%;
     height: 100vh;
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.contact-text {
+    width: 50%;
+    font-family: Montserrat;
+}
+
+.red {
+    color: tomato;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-text {
+        width: 100%;
+        padding: 50px;
+    }        
 }
