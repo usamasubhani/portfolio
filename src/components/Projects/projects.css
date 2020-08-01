@@ -4,11 +4,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .project {
-    width: 300px; height: 400px;
+    width: 500px; height: 400px;
     margin: 30px;
-    background-color: green;
+    /* background-color: green; */
+}
+
+.project-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-details-container a {
+    margin-left: 20px;
 }
