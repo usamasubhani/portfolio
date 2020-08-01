@@ -9,10 +9,14 @@
 }
 
 .hero-title-container {
-    font-family: Doppio One;
+    /* font-family: Doppio One; */
 }
 
 .social-icons-container a {
     margin: 10px;
+    font-size: x-large;
 }
 
+.social-icons-container a:hover {
+    color: tomato;
+}

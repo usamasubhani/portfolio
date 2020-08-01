@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAndroid, faFreebsd } from '@fortawesome/free-brands-svg-icons';
 
 type Props = {
   siteTitle: string;
@@ -27,7 +29,8 @@ const Header: React.FC<Props> = ({ siteTitle }: Props) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/* <FontAwesomeIcon icon={faFreebsd} /> */}
+          {/* {siteTitle} */}
         </Link>
       </h4>
     </div>

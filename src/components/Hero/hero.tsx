@@ -1,18 +1,20 @@
 import React from 'react'
 import './hero.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Hero = () => {
     return (
         <div className="hero">
             <div className="hero-title-container">
                 <h1>
-                    Hello, <br/> I am <br/> Usama Subhani
+                    Hello<span className="red">,</span> <br/> I am <br/> Usama Subhani
                 </h1>
             </div>
             <div className="social-icons-container">
-            <a href="https://twitter.com/basedusama" target="_blank">twitter</a>
-            <a href="https://github.com/usamasubhani" target="_blank">github</a>
-            <a href="https://www.linkedin.com/in/usamasubhani/" target="_blank">linkedin</a>
+                <a href="https://twitter.com/basedusama" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="https://github.com/usamasubhani" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+                <a href="https://www.linkedin.com/in/usamasubhani/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
             </div>
         </div>
     )
