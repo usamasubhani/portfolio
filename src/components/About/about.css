@@ -16,8 +16,10 @@
 
 .about-description-container {
     width: 500px;
+    line-height: 35px;
 }
 
 .about-interests-container {
     width: 300px;
+    line-height: 20px;
 }
