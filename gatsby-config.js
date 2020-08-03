@@ -50,6 +50,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       }
     }
+    /* eslint-enable @typescript-eslint/camelcase */
     `gatsby-plugin-offline`,
   ],
 };
