@@ -44,6 +44,12 @@ module.exports = {
         fileName: `types/graphql-types.d.ts`,
       },
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      }
+    }
     /* eslint-enable @typescript-eslint/camelcase */
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
