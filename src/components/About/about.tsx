@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-container">
             <div className="about-description-container about-contnent">
                 <p>I am a Full Stack Developer.</p>
-                <p>I help companies and individuals in optimizing workflows, automating processes, developing new products and updating/fixing existing codebases.</p>
+                <p>I can develop effective and efficient software products, using best practices and cutting edge technologies. I am driven by the goal of improving human's lives through my knowledge and skills.</p>
             </div>
             <div className="about-interests-container about-contnent">
                 <p>I am interested in: </p>
