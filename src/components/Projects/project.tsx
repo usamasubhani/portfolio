@@ -15,7 +15,7 @@ const Project: React.FC<Props> = ({name, image, link, code}) => {
         <div className="project">
             <Img fluid={image} />
             <div className="project-details-container">
-                <h4>{name}</h4>
+                <h4 className="project-name">{name}</h4>
                 <div className="links-container" >
                     <a href={link}>
                         <FontAwesomeIcon icon={faExternalLinkAlt} />
