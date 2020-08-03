@@ -7,9 +7,9 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="hero-title-container">
-                <h1>
+                <h2>
                     Hello<span className="red">,</span> <br/> I am <br/> Usama Subhani
-                </h1>
+                </h2>
             </div>
             <div className="social-icons-container">
                 <a href="https://twitter.com/basedusama" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
