@@ -10,9 +10,15 @@
 .project {
     width: 500px; height: 400px;
     margin: 30px;
+    transition-duration: 0.2s;
     /* background-color: green; */
 }
-
+.project:hover {
+    transform: translateY(-5px);
+}
+.project-name {
+    margin-top: 20px;
+}
 .project-details-container {
     display: flex;
     align-items: center;
