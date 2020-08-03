@@ -33,7 +33,7 @@ const Layout: React.FC<Props> = ({ children }: Props) => {
       <div>
         <main>{children}</main>
       </div>
-      <footer style={{textAlign: `center`}}>
+      <footer style={{textAlign: `center`, marginBottom: `15px`}}>
         end
       </footer>
     </>
